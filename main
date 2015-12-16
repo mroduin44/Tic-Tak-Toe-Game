@@ -76,8 +76,7 @@ public class Main
 						int col = reader1.nextInt();
 						if (row > maxBoardSize || col > maxBoardSize || row < minBoardSize || col < minBoardSize)
 						{
-							System.out
-									.println("Your move of " + row + "," + col + " was unaccaptable please try again");
+							System.out.println("Your move of " + row + "," + col + " was unaccaptable please try again");
 							board.PrintBoard();
 							continue;
 						}
